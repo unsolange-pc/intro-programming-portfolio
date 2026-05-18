@@ -25,13 +25,10 @@ README.md
 Name - Solange Tabe
   <br>
   
-i feel all concept interesting and chalenging for me as i did not  have any experience befor it .
-but i tried to do . But i felt the for loop , structure and if  else statement were interesting .
+i found the concept was challengind but yet interesting especially since i had no knowledge on it before. 
+<br>
+The concept  that i found more chalenging for me before exam were array,and neasted loop i kept reading over and over just to understand but i still  get confuse during iteration . 
 <br>
 
-The concept  that i felt difficult and chalenging befor exam were array,and neasted loop . i  always  used to confuse during iteration . 
-<br>
-
-Still i donot more about the git hub. But i learnt it in my computer tool class with professor Kaveh Bakhtiyari.He  taught  use about it and healped to create account.after that to complete this project i saw the you tubes video for better understand the basic concept of git hub.
-  <br>
+Still i donot more about the git hub. But i learnt it in my computer tool class with Mr. Kaveh Bakhtiyari.He  taught  us the use of github and how to play around it. And i also watched some youtube videos to understand.
 [ you tube video : https://youtu.be/NUELGzIHT-I?si=-J-YRu2nMJGcEZID
