@@ -1,1 +1,117 @@
+namespace Loop
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            // a for loop is used when you know how many times you want to repeat a block of code 
+            for(int i=0; i < 5; i++)
+            {
+                Console.WriteLine("Number: " + i);
+            }
+            // int i=0 --> start from 0
+            // i<5 loop runs while condition is true (i<5)  (i> 5 i<5 i=5)
+            // i++ --> increase i by 1 each time 
+
+            int sum = 0;
+
+            for(int i=1; i<=5; i++)
+            {
+                sum = sum + i;
+            }
+            Console.WriteLine("Total = " + sum);
+
+            int a = 8;
+            int b = 7;
+
+            // I want to save my friends' names in computer memory , I have 5 close friends 
+            string name1 = "John";
+            string name2 = "mary";
+            string name3 = "Helen";
+            string name4 = "Rose";
+            string name5 = "Tara";
+
+            // if I can create a big space that I can fit all of my friends' names 
+            // An array is a collection of elements of the same data type, stored in a fixed size and 
+            // if you want to use it you should call the index (address of each element in array)
+
+            // Advantage of using array ---> stores multiple values in one variable 
+            // be careful all of them should have same data type (all string, all int , all double)
+            // size is fixed (can not grow)
+            // uses indexing (starts from 0)
+            // first element always index 0 
+            // 5 friends and apartment number start from zero 
+            // John---> 0 
+            // mary ---> 1
+            // helen ---> 2 
+            // Rose ---> 3 
+            //Tara ---> 4 
+
+            // how many index do i have in my array 
+            // index = n-1
+           // int[] numbers = { 1[0], 4[1], 76[2], 89[3], 34[4], 56[5], 3[6], 2[7] };
+            // how many indexes = 8-1 = 7 
+            // how many elements = 8
+            string[] names = { "John", "mary", "Helen", "Rose", "Tara" };
+
+            // I want to print show the name of Tara 
+            // how can I see the data for each elements in array 
+            Console.WriteLine(names[4]);
+            Console.WriteLine(names[0]);
+            Console.WriteLine(names.Length);
+
+            // one of the best option to read the array , read all elements 
+            // get all the elements data is 
+            // loop
+
+            // loop through Array 
+            for ( int i=0; i < names.Length; i++)
+            {
+                Console.WriteLine(names[i]);
+            }
+
+            // names[0] i =0 i++ = 1
+            //names[1] i =1 i++ = 2 
+            //names[2] i =2 i++ = 3
+
+            Console.WriteLine("=======foreach==========");
+
+            // using foreach
+            // for each name in names array  print it 
+            foreach(string name in names)
+            {
+                Console.WriteLine(name);
+            }
+
+            int[] numbers = { 1, 3, 5, 7, 9, 10, 11, 12, 13, 14 };
+
+            Console.WriteLine("====for loop======");
+            for(int i=0; i< numbers.Length; i++)
+            {
+                if (numbers[i] > 5)
+                {
+                    Console.WriteLine(numbers[i]);
+                }else
+                {
+                    Console.WriteLine("small number");
+                }
+                   
+            }
+            Console.WriteLine("=====foreach=======");
+            foreach(int number in numbers)
+            {
+                if(number< 5)
+                {
+                    Console.WriteLine(number);
+                }else
+                {
+                    Console.WriteLine("big number");
+                }
+                 
+            }
+            Console.ReadKey();
+        }
+    }
+## Research References ; From my class with Zohreh Moeini.
+}
 
